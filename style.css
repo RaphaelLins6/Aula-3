@@ -1,0 +1,103 @@
+.h1{
+    color: black;
+} 
+
+.h2{
+    color: red;
+}
+
+.h3{
+    color: aqua;
+} 
+
+.h4{
+    color: blueviolet;
+}
+
+.h5{
+    color: blue;
+} 
+
+.h6{
+    color: orange;
+}
+
+.lista-colorida li:nth-child(1) {
+    background-color: rgb(255, 0, 0); /* Vermelho */
+}
+
+.lista-colorida li:nth-child(2) {
+    background-color: rgb(0, 255, 0); /* Verde */
+}
+
+.lista-colorida li:nth-child(3) {
+    background-color: rgb(0, 0, 255); /* Azul */
+}
+
+.lista-colorida li:nth-child(4) {
+    background-color: rgb(255, 255, 0); /* Amarelo */
+}
+
+.lista-colorida li:nth-child(5) {
+    background-color: rgb(255, 0, 255); /* Magenta */
+}
+
+.lista-colorida li {
+    padding: 10px; /* Adiciona espaçamento interno para melhor visualização */
+    color: white; /* Cor do texto para melhor contraste */
+}
+
+.lista-bordas-coloridas li:nth-child(1) {
+    border: 5px solid red;
+}
+
+.lista-bordas-coloridas li:nth-child(2) {
+    border: 5px solid green;
+}
+
+.lista-bordas-coloridas li:nth-child(3) {
+    border: 5px solid blue;
+}
+
+.lista-bordas-coloridas li:nth-child(4) {
+    border: 5px solid yellow;
+}
+
+.lista-bordas-coloridas li:nth-child(5) {
+    border: 5px solid purple;
+}
+
+.lista-bordas-coloridas li {
+    padding: 10px; /* Adiciona espaçamento interno para melhor visualização */
+    margin: 5px; /* Adiciona espaçamento externo entre os itens */
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: #f0f0f0; /* Cor de fundo da tabela */
+}
+
+th, td {
+    border: 2px solid black; /* Bordas sólidas de 2px */
+    padding: 8px;
+    text-align: center;
+}
+
+/* Diagonal principal */
+tbody tr:nth-child(1) td:nth-child(1),
+tbody tr:nth-child(2) td:nth-child(2),
+tbody tr:nth-child(3) td:nth-child(3),
+tbody tr:nth-child(4) td:nth-child(4),
+tbody tr:nth-child(5) td:nth-child(5) {
+    background-color: #ffcccc; /* Cor de fundo da diagonal principal */
+}
+
+/* Diagonal secundária */
+tbody tr:nth-child(1) td:nth-child(5),
+tbody tr:nth-child(2) td:nth-child(4),
+tbody tr:nth-child(3) td:nth-child(3),
+tbody tr:nth-child(4) td:nth-child(2),
+tbody tr:nth-child(5) td:nth-child(1) {
+    background-color: #ccffff; /* Cor de fundo da diagonal secundária */
+}
