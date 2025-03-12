@@ -60,7 +60,7 @@ Este exercício cria uma tabela 5x5, onde as diagonais têm cores de fundo difer
 
 ## Links Adicionais
 
-* [Aula 3](/) - Link para a atividade da aula 3.
+* [Aula 3](https://raphaellins6.github.io/Aula-3/) - Link para a atividade da aula 3.
 
 ## Autores
 
