@@ -24,22 +24,27 @@
 
 .lista-colorida li:nth-child(1) {
     background-color: rgb(255, 0, 0); /* Vermelho */
+    color: black;
 }
 
 .lista-colorida li:nth-child(2) {
     background-color: rgb(0, 255, 0); /* Verde */
+    color: black;
 }
 
 .lista-colorida li:nth-child(3) {
     background-color: rgb(0, 0, 255); /* Azul */
+    color: black;
 }
 
 .lista-colorida li:nth-child(4) {
     background-color: rgb(255, 255, 0); /* Amarelo */
+    color: black;
 }
 
 .lista-colorida li:nth-child(5) {
     background-color: rgb(255, 0, 255); /* Magenta */
+    color: black;
 }
 
 .lista-colorida li {
